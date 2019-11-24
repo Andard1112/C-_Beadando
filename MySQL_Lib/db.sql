@@ -1,0 +1,16 @@
+﻿CREATE TABLE fozde(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	nev	VARCHAR(255) NOT NULL,
+	tulajdonos VARCHAR(255) NOT NULL,
+	alapitas DATE NOT NULL
+);
+
+CREATE TABLE cefre( 
+	id INT PRIMARY KEY AUTO_INCREMENT, 
+	gyumolcs VARCHAR(255) NOT NULL, 
+	alkohol INT NOT NULL, 
+	egysegar INT NOT NULL, 
+	fozde_id INT NOT NULL, 
+	FOREIGN KEY (fozde_id) 
+	REFERENCES fozde(id) 
+	);

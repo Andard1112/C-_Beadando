@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySQL_Lib", "MySQL_Lib\MySQL_Lib.csproj", "{A821FD33-261E-4A2B-9AF6-DA7F6FFA6446}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A821FD33-261E-4A2B-9AF6-DA7F6FFA6446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A821FD33-261E-4A2B-9AF6-DA7F6FFA6446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A821FD33-261E-4A2B-9AF6-DA7F6FFA6446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A821FD33-261E-4A2B-9AF6-DA7F6FFA6446}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42C54CCE-C785-48B8-8C5D-3AB4A8B05766}
+	EndGlobalSection
+EndGlobal
